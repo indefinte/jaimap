@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.alu.jaimap"
+        versionCode = "11" 
+        version     = "1.0.1" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>宅魅</name>
+
+    <description>
+        讓您發現，服務全世界，就讓 JAiMAP 為您實現。
+    </description>
+
+    <author href="https://build.phonegap.com" email="shady.tw@gmail.com">
+        Tsai Toan-En
+    </author>
+	
+	<icon src="icon.png" />
+	
+	<gap:plugin name="org.apache.cordova.media" />
+	
+	<gap:platform name="android" />	
+	
+	<preference name="orientation" value="landscape" />
+	<preference name="fullscreen" value="true" />	
+	
+</widget>
